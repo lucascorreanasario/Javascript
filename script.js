@@ -1,9 +1,11 @@
-const quant = 10;
-let soma = 1;
+let idade = 1;
 
-for(let i = 0; i < quant; i++){
-    console.log(i);
-    soma = soma + i;
+while(idade<18){
+    console.log("Passou" , idade);
+    idade = idade + 1;
+   
+    
 }
 
-console.log("Acabou!", soma);
+//for: Soma
+//while inquanto for verdadeiro
