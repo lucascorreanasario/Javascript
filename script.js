@@ -1,14 +1,9 @@
-const x = 8;
-const nome = "Lucas";
+const quant = 10;
+let soma = 1;
 
-
-
-if (x <= 18 && nome === "Lucas") {
-    console.log("Entra!");
-
-    /*if(x <=18 && nome === "Lucas" ){
-    console.log("Entra!"); */
-
-} else {
-    console.log("Não entra!");
+for(let i = 0; i < quant; i++){
+    console.log(i);
+    soma = soma + i;
 }
+
+console.log("Acabou!", soma);
