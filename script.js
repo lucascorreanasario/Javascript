@@ -1,13 +1,14 @@
-const x = 7;
-const y = 10;
+const x = 8;
+const nome = "Lucas";
 
-let soma = x +y;
 
-if(soma === 17){
-    soma = 85;
 
-}else{
-    console.log("Ocorreu um erro inesperado!");
+if (x <= 18 && nome === "Lucas") {
+    console.log("Entra!");
+
+    /*if(x <=18 && nome === "Lucas" ){
+    console.log("Entra!"); */
+
+} else {
+    console.log("Não entra!");
 }
-
-console.log(soma);
