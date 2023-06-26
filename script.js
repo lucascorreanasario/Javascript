@@ -1,11 +1,15 @@
-let idade = 1;
+let idade = 18;
 
-while(idade<18){
-    console.log("Passou" , idade);
-    idade = idade + 1;
+do{
+    console.log("Passou");
+  
+}
+while(idade<18);
+    
+    
    
     
-}
+
 
 //for: Soma
 //while inquanto for verdadeiro
