@@ -1,9 +1,4 @@
-const idadeLucas = 18;
-const idadeJoao = 14;
-const idadeJonny = 45;
+//const salario = 103.22224;
+const salario = '103.22224';
 
-const idades = [18, 14, 45];
-
-for(let i = 0; i< idades.length; i++){
-    console.log("resultado", idades[i]);
-}
+console.log("salario: " , Number(salario).toFixed(2))
