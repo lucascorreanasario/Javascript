@@ -1,4 +1,6 @@
-//const salario = 103.22224;
-const salario = '103.22224';
+function soma(item, item2){
+    return item + item2;
+}
 
-console.log("salario: " , Number(salario).toFixed(2))
+
+console.log("Soma" , soma(5, 6));
