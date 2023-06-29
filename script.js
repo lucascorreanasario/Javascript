@@ -1,17 +1,26 @@
-const quantidade = 8;
 
-function Impares(valor){
-    let contar = 0;
-    let newValor = valor
 
-    while(contar<quantidade){
-        if(newValor % 2 !== 0){
-            console.log(newValor);
-            contar++;
-        }
-    newValor++;
+function Mult15(valor1, valor2){
+    let maior = 0;
+    let menor = 0;
+    let soma = 0;
+
+    if(valor1 > valor2){
+        maior = valor1;
+        menor = valor2;
+        
+    }else{
+        maior = valor2;
+        menor = valor1;
     }
-    
+
+    for(menor; menor <= maior; menor++){
+        if(menor % 15 !== 0){
+            soma += menor;
+        }
+    }
+
+    return soma;
 }
 
-Impares(34);
+console.log(Mult15(200,100))
